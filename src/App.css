@@ -1,0 +1,42 @@
+@import url('./output.css');
+/* .div-header {
+  background-color: transparent;
+  color: #111;
+  max-width: 40vw;
+  margin: 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div {
+  background-color: #eee;
+  color: #111;
+  max-width: 40vw;
+  margin: 0 0;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  background-color: #919191;
+  color: #111;
+  transition: background-color 0.3s ease;
+}
+
+
+.button:hover {
+  background-color: #dadada;
+  transition: background-color 0.3s ease;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.body {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+} */
