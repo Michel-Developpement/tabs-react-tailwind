@@ -4,7 +4,7 @@ import Tab from "./components/Tab";
 function App() {
   return (
     <>
-      <div className="text-center">
+      <div className="flex justify-center items-center h-screen">
         <Tab />
       </div>
     </>

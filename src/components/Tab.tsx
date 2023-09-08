@@ -10,11 +10,11 @@ export default function Tab() {
   const [selectedTab, setSelectedTab] = React.useState<number>(0);
   return (
     <>
-      <div className=" translate-x-[20%]">
-        <div className="flex justify-between w-3/5 text-center">
+      <div className="tab rounded-md border border-r-stone-800">
+        <div className="flex justify-between text-center">
           {tabList.map((item: TabList, index: number) => (
             <button
-              className="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-blue-700"
+              className="bg-gray-800 w-10 text-white px-4 py-2 rounded-md pointer-events-auto button"
               key={index}
               onClick={() => setSelectedTab(index)}
             >
@@ -22,9 +22,9 @@ export default function Tab() {
             </button>
           ))}
         </div>
-        <div className="bg-slate-900 text-slate-100 w-3/5 text-center">
-          <p className="text-2xl">{tabList[selectedTab].title}</p>
-          <p className="text-xl">{tabList[selectedTab].body}</p>
+        <div className="bg-slate-900 text-slate-100 text-center rounded-md tab-body">
+          <p className="text-xl">{tabList[selectedTab].title}</p>
+          <p className="text-3xl">{tabList[selectedTab].body}</p>
         </div>
       </div>
     </>

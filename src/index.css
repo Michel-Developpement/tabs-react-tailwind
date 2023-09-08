@@ -1,6 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: grey;
+}
+
+.button {
+  /* transition: background-color 0.3s ease; */
+  transition: box-shadow 0.3s ease;
+  padding: 0 auto;
+  margin: 0.5rem 0;
+}
+
+.button:hover {
+  background-color: #1100ff;
+  box-shadow: 0 0 1rem rgb(255, 255, 255);
+  /* transition: background-color 0.3s ease; */
+  transition: box-shadow 0.3s linear;
+}
+
+.tab {
+  margin-top: 10vh;
+  margin-left: 50vw;
+  transform: translateX(-50%);
+  min-width: 30vw;
+}
+
+.tab-body {
+  padding: 1rem 2rem;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
